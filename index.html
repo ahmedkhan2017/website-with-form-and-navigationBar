@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstClass</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+
+
+    
+<style>
+*{
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Audiowide",sans-serif;
+    font-weight: bolder;
+}
+</style>
+<script src="https://kit.fontawesome.com/9f9d399eb2.js" crossorigin="anonymous"></script>
+<script>
+    function percentage(sub1,sub2,sub3){
+        var a= sub1+sub2+sub3;
+        var b= (a/150)*100;
+        return b
+    }
+    var c=percentage(20,30,40);
+    document.write(c + "%");
+</script>
+</head>
+<body>
+    
+    <h1 style="background-color: lightgray;">Toyota Vitz</h1>
+    <div>
+        <div style="display: flex;" >
+        
+            <div>
+                <img src="FQPX9718.JPG" alt="vitz" width="450" height="300">
+            </div>
+            <div>
+                <p>Specifications</p>
+                <dl>
+                    <dt>Model:</dt>
+                    <dd> - 2018</dd>
+                    <dt>Colours:</dt>
+                    <dd> - Beyond your imagination</dd>
+                    <dt>Max Speed:</dt>
+                    <dd> - 199 km\hr</dd>
+                    <dt>Price:</dt>
+                    <dd> -PKR 5000k </dd>
+                </dl>
+                
+            </div>
+            <div>
+                <p>Technical Specification</p>
+                <dl>
+                    <dt>Engine:</dt>
+                    <dd> - 100%</dd>
+                    <dt>Suspension:</dt>
+                    <dd> - 87%</dd>
+                    <dt>Handling:</dt>
+                    <dd> - 76%</dd>
+                    <dt>Throttle:</dt>
+                    <dd> - 100%</dd>
+                </dl>
+            </div>
+            <div>
+                <p>Interior</p>
+                <dl>
+                    <dt>Air Conditioner:</dt>
+                    <dd> - Chill</dd>
+                    <dt>Dashboard:</dt>
+                    <dd> - illuminative</dd>
+                    <dt>Roof:</dt>
+                    <dd> - Hard-Top</dd>
+                    <dt>Ignition:</dt>
+                    <dd> -Push Start </dd>
+                </dl>
+            </div>
+        </div>
+        <div style="background-color: rgb(5, 5, 5); color: #f9f9f9;text-align: center;">
+            <h1 style="background-color: rgb(11, 11, 11);">Contact Us</h1>
+            <p2 style="background-color: black;">Message Us</p2>
+            <form style="background-color: black;">
+                <label for="fname" style="background-color: black;">First Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="first name..."><br>
+                <label for="lname" style="background-color: black;">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="last name..."><br>
+                <p style="background-color: black;">Gender:</P>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label style="background-color: black;">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label style="background-color: black;">Female</label><br>
+                <label for= "Bod" style="background-color: black;">Date of Birth:</label><br>
+                <input type="date" id="Bod" name="Bod"><br>
+                <label for="Sug" style="background-color: black;">Suggestion</label><br>
+                <input type="text" id="Sug" name="Sug" placeholder="Feel free to express..."><br>
+                <input type="submit" value="submit" style="width: auto;" >
+                <input type="reset" value="reset">
+
+
+            </form>
+            <p3 style="background-color: black;">
+                    <i class="fas fa-phone" style="color: #f9f9f9;background-color: black;">   03314556688</i>
+                    <i class="fa-brands fa-instagram" style="color: #f9f9f9;background-color: black;">   Toyo_vitZ</i>
+                    <i class="fa-brands fa-facebook" style="color: #f9f9f9;background-color: black;">   Toyota Vitz</i>
+                    <i class="fa-brands fa-x"style="color: #f9f9f9;background-color: black;align-self: start;">   @toyo_vitz</i>
+            </p3>
+        </div>
+    </div>
+</body>
+</html>
